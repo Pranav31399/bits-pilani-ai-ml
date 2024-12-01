@@ -16,5 +16,3 @@ tic=time.time()
 for sonnet in sonnet_words:
     if sonnet not in sowpods_words:
         print(sonnet)
-        
-print(time.time()-tic)
